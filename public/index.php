@@ -1,6 +1,6 @@
 <?php
 require dirname(__DIR__).'/src/bootstrap.php';
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.1.0';
 $states = ['todo'=>'Chưa làm','doing'=>'Đang làm','done'=>'Hoàn thành'];
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
